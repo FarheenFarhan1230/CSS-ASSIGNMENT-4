@@ -81,8 +81,13 @@ button{
     border: 1px solid rgba(255, 255, 255, 0.5);
 }
 button:hover{
-    color:black;
-    background-color: white;
+    color:white;
+    background-color:black;
+}
+.container1 .btn>a{
+    text-decoration: none;
+color:white;
+    
 }
 .container2{
     width: 100%;
@@ -332,6 +337,10 @@ width: 150px;
 padding-left: 20px;
 padding-right: 20px;
 border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.button>a{
+text-decoration: none;
+color: white;
 }
 /* Home Page End */
 /* Footer Start */
